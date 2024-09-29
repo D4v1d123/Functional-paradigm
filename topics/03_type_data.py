@@ -5,6 +5,7 @@
 # IMMUTABLE DATA => They can NOT modify their value after being created: Integer,
 # float, string, tuple and bool. These variables can be passed by value to a 
 # function.
+
 def variable_in_upper(message, friends_list):
     message = message.upper()
     friends_list[0] = friends_list[0].upper()

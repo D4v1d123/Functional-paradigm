@@ -3,6 +3,7 @@
 # return another function (function received as a parameter plus the extra 
 # behavior), this to saving time in the implementation common behavior to many 
 # functions at the same time (this is a good practice).
+
 import time
 
 def exec_time(func):  # Decorator.

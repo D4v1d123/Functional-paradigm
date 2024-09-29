@@ -26,7 +26,7 @@ def get_id(age):  # Main function.
             
     cc = 89418921  #   <-╻
     ic = 1002348123  # <-│ => Non-local variable.
-    cr = 1004312870  # <-╹
+    cr = 1004312870  # <-╹  
     
     define_id(age)
 

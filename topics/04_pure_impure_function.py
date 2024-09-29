@@ -1,6 +1,7 @@
 # PURE FUNCTION => These functions use only their parameters to generate a result, 
 # not affecting the state of the program. Furthermore, they always produce the same
 # result with the same arguments. 
+
 def sum(num_1, num_2):
     return num_1 + num_2
 

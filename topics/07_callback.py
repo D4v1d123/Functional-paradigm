@@ -2,6 +2,7 @@
 # that is passed as an argument to other function, and is executed after an action 
 # or event occurs. These types of functions are mainly used in asynchronous 
 # programming with the objective of handling events or tasks.
+
 def add(num1, num2, callback):
     result = num1 + num2  # Action (add numbers).
     callback(result)  # Call to callback (show the result after the action occurs).

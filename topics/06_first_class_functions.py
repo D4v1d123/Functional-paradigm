@@ -1,13 +1,14 @@
 # FIRST CLASS FUNCTION => It's can be passed as a parameter to another function
 # (higher-order function). This type of function can be returned within inside 
 # function. This functions can be manipulated as variables. 
+
 def addition(number_1, number_2):  # First class function.
     return number_1 + number_2
 
 addition_function = addition  # Function object or function reference.
 result = addition_function(2, 2)
 print(f"The addition result is: {result}\n")
-# ----------------------------------------------------------------------------
+
 def greeting(name): print(f"Hi {name}\n")  # First class function.
 
 def apply_function(function, value):  # Higher order function.

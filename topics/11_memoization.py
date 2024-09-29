@@ -2,6 +2,7 @@
 # calculated results in a function to avoid calculating them agin, reducing the 
 # execution time. Memoization should only be used into pure functions that are 
 # called very frequently. 
+
 from time import time
 
 fib_result = {  # Memoization of fibonacci.

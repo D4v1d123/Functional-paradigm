@@ -1,5 +1,6 @@
 # CLOSURE => It's a function within another function, this allows the internal
 # function to access variables from the outer function.
+
 def outer_function(number_1):
     def inner_function(number_2):  # This is a closure
         return number_1 + number_2

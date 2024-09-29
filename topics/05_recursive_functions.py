@@ -6,6 +6,7 @@
 
 # RECURSIVE CASE => Is the condition that allows the recursive function to 
 # be called itself.
+
 def loop(i):
     if i > 10:  # Base case or variable limit.
         return i
